@@ -38,7 +38,7 @@ class TodoApp extends React.Component {
 
 	render() {
 		return (
-			<Provider store={store}>
+			<Provider>
 				<div className="App">
 					<h1>Todo List</h1>
 					<TodoList 
